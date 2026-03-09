@@ -1,35 +1,32 @@
-# Trabalho 3 da disciplina de SISTEMAS INTELIGENTES E TÉCNICAS AVANÇADAS EM IA
+# Assignment 3 for the Intelligent Systems and Advanced AI Techniques Course
+
 <!-- ABOUT THE PROJECT -->
-## Sobre o projeto:
+## About the project:
 
-Esse projeto contém o trabalho final da disciplina INF0084 - SISTEMAS INTELIGENTES E TÉCNICAS AVANÇADAS EM IA.
-Ele conta com os seguintes arquivos:
+This project contains the final assignment for the course INF0084 - INTELLIGENT SYSTEMS AND ADVANCED AI TECHNIQUES.
+It includes the following files:
 
-*   `utils.py` - Arquivo onde são definidas as funções auxiliares para a execussão do trabalho (calculate_overall_score e fetch_restaurant_data).
-*   `main.py` - Solução principal do trabalho, na qual é utilizado um parâmetro nos Agentes para limitar a conversa sequencial, mantendo apenas os turnos necessários.
-*   `mainv2.py` - Solução alternativa do trabalho, na qual um turno extra de chamada de LLM é utilizado em cada conversação, sendo feito o seu tratamento através do prompt de sistema dos Agentes.
-*   `restaurantes.txt` - Arquivo contendo as avaliações dos restaurantes.
-*   `teste.py` - Arquivo que avalia a solução proposta no arquivo main.py.
-*   `testev2.py` - Arquivo que avalia a solução alternativa proposta no arquivo mainv2.py.
+*   `utils.py` - File where auxiliary functions for the assignment are defined (calculate_overall_score and fetch_restaurant_data).
+*   `main.py` - Main solution for the assignment, which uses a parameter in the Agents to limit sequential conversation, keeping only the necessary turns.
+*   `mainv2.py` - Alternative solution for the assignment, which uses an extra LLM call turn in each conversation, with its handling done through the system prompt of the Agents.
+*   `restaurantes.txt` - File containing the restaurant reviews.
+*   `teste.py` - File that evaluates the solution proposed in main.py.
+*   `testev2.py` - File that evaluates the alternative solution proposed in mainv2.py.
 
 <!-- USAGE EXAMPLES -->
-## Utilização:
+## Usage:
 
-Primeiramente, para que o projeto possa ser executado, é necessária a criação de um arquivo .env com a chave da API do groc. Caso outra LLM seja utilizada, é necessário fazer os ajustes correspondentes nos arquivos main.py e mainv2.py
+First, to run the project, you need to create a .env file with the Groq API key. If another LLM is used, you need to make the corresponding adjustments in the main.py and mainv2.py files.
 
-Por fim, apenas execute o arquivo teste.py e testev2.py para observar os resultados:
+Finally, just run the teste.py and testev2.py files to observe the results:
   
    ```sh
   python teste.py
    ```
 
 <!-- CONTACT -->
-## Alunos:
+## Students:
 
 Daniel Ambrósio Ferreira Júnior - [danielambrosiojunior@gmail.com](danielambrosiojunior@gmail.com)
 
 Luana Felipe de Barros - [luanafelbarros@gmail.com](luanafelbarros@gmail.com)
-
-
-
-
